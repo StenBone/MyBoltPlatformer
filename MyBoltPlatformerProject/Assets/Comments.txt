@@ -1,0 +1,3 @@
+* Notice on the player movement there is no logic for multiplying the movement by delta time. The reason for this is that the physics for the player is set to interpolate. This means the physics updates and screen refresh are happening at simliar times.
+* Shift + Enter to expand a window
+* Not all flow nodes require flow, the system is smart enough to work backwards.
