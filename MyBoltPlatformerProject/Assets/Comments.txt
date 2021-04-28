@@ -1,3 +1,6 @@
 * Notice on the player movement there is no logic for multiplying the movement by delta time. The reason for this is that the physics for the player is set to interpolate. This means the physics updates and screen refresh are happening at simliar times.
 * Shift + Enter to expand a window
 * Not all flow nodes require flow, the system is smart enough to work backwards.
+* Continuous collision detection tests the enitire movement, not just between frames.
+* A ray cast sends a ray out into world space, a box cast sends a box collider into world space
+* When using layers, you must be consitent about assigning layers where they fit. For instance assigning a layer Floor in this game is directly tied to when the player can jump. Slow is Smooth. Smooth is Fast. TODO: I'm thinking about changing this so that the as long as the boxcast doesn't collide with Player layer, they can jump.
