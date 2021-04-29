@@ -12,4 +12,6 @@
 * Pay attention to your windows when working with animators and animations
 * Must click on the object that has the animator in the Scene Hierarchy to start working on the animator
 * Cinemachine can be previewed while playing the game in the Game view and modified while the game is running. 
+* The sorting order for text mesh pro is based on the heirarchy order
+* Add a container to safely turn on and off ui elements
 * 
