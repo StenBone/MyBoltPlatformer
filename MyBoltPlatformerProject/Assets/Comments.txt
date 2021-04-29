@@ -4,3 +4,12 @@
 * Continuous collision detection tests the enitire movement, not just between frames.
 * A ray cast sends a ray out into world space, a box cast sends a box collider into world space
 * When using layers, you must be consitent about assigning layers where they fit. For instance assigning a layer Floor in this game is directly tied to when the player can jump. Slow is Smooth. Smooth is Fast. TODO: I'm thinking about changing this so that the as long as the boxcast doesn't collide with Player layer, they can jump.
+* Sorting Layers and Layers are different
+* For sorting layers, the highest number is drawn on top of everything else
+* Super Units are like funcitons for collecting a group of nodes to organize the flow graph
+* Groups can be formed by holding down Ctrl, this is a helpful way document code
+* Object variables can be used for cacheing variables
+* Pay attention to your windows when working with animators and animations
+* Must click on the object that has the animator in the Scene Hierarchy to start working on the animator
+* Cinemachine can be previewed while playing the game in the Game view and modified while the game is running. 
+* 
