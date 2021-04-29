@@ -256,7 +256,7 @@ TextureImporter:
     second: monochrome_tilemap_transparent_packed_83
   - first:
       213: -7769615132817825899
-    second: monochrome_tilemap_transparent_packed_84
+    second: platform
   - first:
       213: -5569230514106341905
     second: monochrome_tilemap_transparent_packed_85
@@ -3067,7 +3067,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_tilemap_transparent_packed_84
+      name: platform
       rect:
         serializedVersion: 2
         x: 80
