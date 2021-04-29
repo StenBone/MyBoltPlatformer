@@ -367,7 +367,7 @@ TextureImporter:
     second: monochrome_tilemap_transparent_packed_120
   - first:
       213: -7225988102199014298
-    second: monochrome_tilemap_transparent_packed_121
+    second: spikes
   - first:
       213: 6700635950768110166
     second: monochrome_tilemap_transparent_packed_122
@@ -3844,15 +3844,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_tilemap_transparent_packed_121
+      name: spikes
       rect:
         serializedVersion: 2
         x: 32
         y: 208
         width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
