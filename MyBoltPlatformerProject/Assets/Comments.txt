@@ -14,4 +14,5 @@
 * Cinemachine can be previewed while playing the game in the Game view and modified while the game is running. 
 * The sorting order for text mesh pro is based on the heirarchy order
 * Add a container to safely turn on and off ui elements
-* 
+* With events, work backwards. Wire up where you need the event and then work backwards to where the event needs to trigger.
+* Events can be used almost as if they are function calls. Great way for Game Objects to communicate with each other.

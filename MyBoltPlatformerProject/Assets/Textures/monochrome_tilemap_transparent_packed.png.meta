@@ -4,7 +4,7 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 386844166813859994
-    second: monochrome_tilemap_transparent_packed_0
+    second: coin
   - first:
       213: -6598207723498190877
     second: monochrome_tilemap_transparent_packed_1
@@ -1303,7 +1303,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: monochrome_tilemap_transparent_packed_0
+      name: coin
       rect:
         serializedVersion: 2
         x: 16
