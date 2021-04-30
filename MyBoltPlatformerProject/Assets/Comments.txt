@@ -16,3 +16,7 @@
 * Add a container to safely turn on and off ui elements
 * With events, work backwards. Wire up where you need the event and then work backwards to where the event needs to trigger.
 * Events can be used almost as if they are function calls. Great way for Game Objects to communicate with each other.
+* Getting the names for events and event triggers to match up is crucial
+* Whenever iterating always test step by step with debug output statements. Feel free to delete these statements when done to keep code uncluttered.
+* You can add new assemblies through Unit Options Wizard. This is helpful for adding types like TextMeshPro.
+* Important Lesson: A node that has a series of computations behind it needs to only by its output to another node once. Visual Scripting works backwards. So every node that tries to read from the output will perform the computations again.
