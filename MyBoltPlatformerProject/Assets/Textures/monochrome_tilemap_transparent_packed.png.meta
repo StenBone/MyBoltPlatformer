@@ -307,7 +307,7 @@ TextureImporter:
     second: monochrome_tilemap_transparent_packed_100
   - first:
       213: -7041500812674401902
-    second: monochrome_tilemap_transparent_packed_101
+    second: ruby
   - first:
       213: -5243587991628146833
     second: monochrome_tilemap_transparent_packed_102
@@ -3424,7 +3424,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_tilemap_transparent_packed_101
+      name: ruby
       rect:
         serializedVersion: 2
         x: 32

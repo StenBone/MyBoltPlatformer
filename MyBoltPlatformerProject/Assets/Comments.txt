@@ -19,4 +19,8 @@
 * Getting the names for events and event triggers to match up is crucial
 * Whenever iterating always test step by step with debug output statements. Feel free to delete these statements when done to keep code uncluttered.
 * You can add new assemblies through Unit Options Wizard. This is helpful for adding types like TextMeshPro.
-* Important Lesson: A node that has a series of computations behind it needs to only by its output to another node once. Visual Scripting works backwards. So every node that tries to read from the output will perform the computations again.
+* Important Lesson: A node that has a series of computations behind it needs to only by its output to another node once. Visual Scripting works backwards. So every node that tries to read from the output will perform the computations again. Nodes are evaluated as they are needed.
+* You really do have to depend on the team at Bolt to make a good product. So far it's very impressive, but with flaws. For instance in you have a Get Varable node that is recieving a scene object, the options for variable name will not be correct. 
+* When ever you have multiple game objects that are very similiar in the scene heirarchy, that is a code smell that you should have a prefab for easier modification and maintenance.
+* Game dev tip: For good player experience keep the colliders on the hazards smaller than the graphic and the colliders on the coins larger than the graphic.
+* 
