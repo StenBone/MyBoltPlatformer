@@ -214,7 +214,7 @@ TextureImporter:
     second: monochrome_tilemap_transparent_packed_69
   - first:
       213: -7714234516568225397
-    second: monochrome_tilemap_transparent_packed_70
+    second: stone
   - first:
       213: -2088863968931996787
     second: monochrome_tilemap_transparent_packed_71
@@ -325,7 +325,7 @@ TextureImporter:
     second: monochrome_tilemap_transparent_packed_106
   - first:
       213: 3265241409279719089
-    second: monochrome_tilemap_transparent_packed_107
+    second: filler_0
   - first:
       213: 4279826087357425094
     second: monochrome_tilemap_transparent_packed_108
@@ -883,7 +883,7 @@ TextureImporter:
     second: monochrome_tilemap_transparent_packed_292
   - first:
       213: 3507190944231686705
-    second: monochrome_tilemap_transparent_packed_293
+    second: filler_1
   - first:
       213: -9087190091754367925
     second: monochrome_tilemap_transparent_packed_294
@@ -2773,7 +2773,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_tilemap_transparent_packed_70
+      name: stone
       rect:
         serializedVersion: 2
         x: 176
@@ -3550,7 +3550,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_tilemap_transparent_packed_107
+      name: filler_0
       rect:
         serializedVersion: 2
         x: 128
@@ -7456,7 +7456,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: monochrome_tilemap_transparent_packed_293
+      name: filler_1
       rect:
         serializedVersion: 2
         x: 256
